@@ -1,0 +1,34 @@
+{
+  "name": "disociando-podcast",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.31.6",
+    "@aws-sdk/client-s3": "^3.666.0",
+    "@aws-sdk/s3-request-presigner": "^3.666.0",
+    "bootstrap": "^5.3.3",
+    "framer-motion": "^10.18.0",
+    "howler": "^2.2.4",
+    "next": "^14.2.5",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.2.0",
+    "react-howler": "^5.2.0",
+    "react-player": "^2.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.2.5",
+    "typescript": "^5.6.2"
+  }
+}

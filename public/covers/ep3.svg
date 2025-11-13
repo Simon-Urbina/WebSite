@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb703"/>
+      <stop offset="100%" stop-color="#e74c7e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="#fefefe"/>
+  <rect x="100" y="140" width="1000" height="920" rx="48" fill="url(#g3)" opacity="0.2"/>
+  <text x="140" y="1040" font-family="Poppins, Arial" font-size="120" font-weight="700" fill="#0c3b6f">Disociando · 03</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <rect width="1200" height="1200" fill="#fff"/>
+  <g opacity="0.2">
+    <circle cx="200" cy="300" r="240" fill="#0c3b6f"/>
+    <circle cx="960" cy="280" r="180" fill="#e74c7e"/>
+    <circle cx="820" cy="900" r="300" fill="#27c2a0"/>
+  </g>
+  <text x="100" y="1080" font-family="Poppins, Arial" font-size="120" font-weight="700" fill="#0c3b6f">Disociando · 02</text>
+</svg>
