@@ -17,7 +17,7 @@ export default function HeroBanner() {
             </motion.p>
             <motion.div className="d-flex gap-3 mt-3" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }}>
               <Link className="btn btn-primary" href="/episodes">Ver episodios</Link>
-              <Link className="btn btn-outline-secondary" href="/rss.xml">RSS</Link>
+              <Link className="btn btn-soft" href="/rss.xml">RSS</Link>
             </motion.div>
           </div>
           <div className="col-md-6 text-center">

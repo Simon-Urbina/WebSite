@@ -5,7 +5,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 
 export default function SiteNavbar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary border-bottom" data-bs-theme="light">
+    <Navbar expand="lg" className="navbar-glass py-2" data-bs-theme="light">
       <Container>
         <Navbar.Brand href="/" className="d-flex align-items-center gap-2">
           <Image src="/logo.svg" alt="Disociando" width={36} height={36} />

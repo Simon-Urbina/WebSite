@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { getAllEpisodes } from '@/lib/data';
 import EpisodeCard from '@/components/EpisodeCard';
 import HeroBanner from '@/components/HeroBanner';
+import AboutSection from '@/components/AboutSection';
+import GallerySection from '@/components/GallerySection';
+import PlatformsSection from '@/components/PlatformsSection';
 
 export default async function HomePage() {
   const episodes = await getAllEpisodes();
@@ -23,6 +26,10 @@ export default async function HomePage() {
           ))}
         </div>
       </section>
+
+      <AboutSection />
+      <GallerySection />
+      <PlatformsSection />
     </>
   );
 }
